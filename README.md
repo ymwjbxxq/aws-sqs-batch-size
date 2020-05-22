@@ -4,10 +4,10 @@ Often, I see people using SQS + Lambda with batch set to 1 and complain later on
 Serverless has his limitations but there are little things that we can do to improve the experience, one of this is the SQS batch size.
 By default is 10 and using this little batch size we are increasing throughput and reducing cost at the same time that is always good.
 
-### Your best friend ###
+### Your best friends ###
 
-*[SendMessageBatch](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_SendMessageBatch.html)
-*[DeleteMessageBatch](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_DeleteMessageBatch.html)
+* [SendMessageBatch](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_SendMessageBatch.html)
+* [DeleteMessageBatch](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_DeleteMessageBatch.html)
 
 
 ### SQS pricing ###
